@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./login.js">
+    </script>
+</head>
+
+<body class="maintag" >
+    <div class="center">
+    
+        <h1>LOGIN</h1>
+        <form class="form"  id="form" name="form1">
+            <div class="formelement">
+                <label>Username</label>
+                <input type="text" name="text1" id="uname" onfocusout="Checkusername()">
+                <span id="messages"></span>
+                <small ></small>
+                
+                
+            </div>
+            
+            
+            <div class="formelement">
+                <label>Password</label>
+                <input type="password" id="pwd" name="password1" onfocusout="Checkpassword()" >
+                <span id="messages"></span>
+                <small></small>
+                
+                
+
+            </div>
+            <div class="pass">Forgot Password?</div>
+            <button type="button" name="Login" id="button" onclick="Checkvalidation()">Login</button>
+            <span></span>
+            <div class="registration-link">
+                Not a Member? <a href="./register.html">Registration</a>
+            </div>
+        </form>
+   </div>
+   
+
+</body>
+</html>

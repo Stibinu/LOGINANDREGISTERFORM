@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration link</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="register.js"></script>
+  </head>
+  <body>
+    <h1>Register Here</h1>
+
+    <form id="form" onsubmit="return myfun()" action="#">
+      <br />
+
+      <div>
+        <label for="name">First name</label>
+        <input
+          type="text"
+          id="user"
+          name="user"
+          onfocusout="Checkfirstname()"
+        /><br /><br />
+        <small></small>
+      </div>
+
+      <div>
+        <label for="dob">Middle name</label>
+        <input type="" name="" id="user2" /><br /><br />
+      </div>
+
+      <div>
+        <label>Last name</label>
+        <input
+          type=""
+          name=""
+          id="users"
+          onfocusout="Checklastname()"
+        /><br /><br />
+        <small></small>
+      </div>
+
+      <div>
+        <label>Password</label>
+        <input
+          type="password"
+          name="name"
+          id="password"
+          onfocusout="Checkpassword()"
+        /><br /><br />
+        <small></small>
+      </div>
+
+      <div>
+        <label>Confirm password</label>
+        <input
+          type="password"
+          name="name"
+          id="passwords"
+          onfocusout="Checkconfirmpassword()"
+        /><br />
+        <small></small>
+      </div>
+      <br />
+
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="emails"
+          name="email"
+          onfocusout="Checkemail()"
+        /><br /><br />
+
+        <small></small>
+      </div>
+
+      <div>
+        <label for="phone">Phone number</label>
+        <input
+          type="text"
+          id="mobiles"
+          name="phone"
+          onfocusout="Checknumbers()"
+        /><br /><br />
+        <small></small>
+      </div>
+
+      <div>
+        <label for="phone">Date of birth</label>
+        <input
+          type="date"
+          id="dob"
+          value="dob"
+          onfocusout="Checkdob()"
+        /><br /><br />
+        <small></small>
+      </div>
+
+      <br />
+      <div>
+      <label for="address">Address</label>
+      <input
+        type="text"
+        id="address"
+        name="address"
+        onfocusout="Checkaddress()"
+      /><br /><br /><br />
+      <small></small>
+      </div>
+
+
+      <div>
+      <label for="email">Pincode</label>
+      <input type="numbee" id="pincode" name="email" onfocusout="Checkpincode()"" /><br /><br /><br />
+      <small></small>
+      </div>
+
+      <div>
+        <label>Gender</label>
+        <input
+          type="radio"
+          name="gender"
+          id="gender"
+          value="male"
+          
+        />
+        Male
+        <input type="radio" name="gender" id="gender" value="female"  /> Female
+        <br /><br />
+        <small></small>
+      </div>
+
+      <label for="">City</label>
+
+      <select>
+        <option value="computer">Delhi</option>
+        <option value="commerce">Bangalore</option>
+        <option value="biology">Chennai</option>
+        <option value="humanism">Ernamkulam</option></select
+      ><br /><br /><br />
+
+      <label for="">Country</label>
+      <select name="purpose" id="purpose">
+        <option value="enqUIRY">India</option>
+        <option value="placeorder">Ireland</option>
+        <option value="return">America</option>
+        <br /><br /></select
+      ><br /><br /><br />
+      <label>Skills</label>
+      <input type="checkbox" id="name1" name="name1" value="book" />
+      <label for="name1">Php</label>
+      <input type="checkbox" id="name1" name="name2" value="pen" />
+      <label for="name1">Java</label>
+      <input type="checkbox" id="name1" name="name3" value="boat" />
+      <label for="name1"> .NET</label><br /><br /><br />
+      <input type="checkbox" id="name2" name="name3" value="boat" />
+      <label for="name2">I have read terms and conditions</label><br /><br />
+
+      <input
+        type="button"
+        id="button"
+        value="Submit"
+        class="btn"
+        onclick="Checkvalidation()"
+      />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page{
+    height:160vh;
+    width: 100vw;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+    background-color: rgb(11, 11, 102);
+    height:20px;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a{
+    text-decoration: underline;
+    font-size: 20px;
+    color:white;
+    font-family: sans-serif;
+}
+nav ul li a:hover{
+    color: rgb(83, 49, 207);
+}
+.img1{
+    height:70px;
+    border-radius: 40px;
+}
+.home{
+    width:100vw;
+    height:90vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./images/aiii.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.swiper{
+    width:90vh;
+    height: fit-content;
+}
+.swiper-slide img{
+    width:100%;
+}
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	
+}
+
+
+.row{
+	display: flex;
+    flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: black;
+    padding: 70px 120px;
+    position:absolute; bottom: 19px;
+    width:100vw;
+    height:50vh;
+    
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #2c1ee9;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+}
+
+
+
+form {
+    margin-top: 30px;
+    margin-left: 420px;
+    display: table;
+    background-color: rgba(146, 122, 89, 0.5);
+    
+    width:550px;
+    height: 100px;
+    border-radius: 10px;
+    
+
+  }
+  body {
+    background-image: url("./images/paste.jpg");
+    background-size: cover;
+    width:100%;
+    height:100%;
+  }
+  label{
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+    
+
+
+    
+    width:100px;
+  }
+
+  #button{
+    width:100px;
+    height:50px;
+    border-radius: 30px;
+    margin-left: 220px;
+    background-color: white;
+    color:rgb(44, 36, 25);
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  h1{
+    color: white;
+    margin-left: 580px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  h1:hover{
+    color:rgba(146, 122, 89, 0.863);
+    transition: 2s;
+
+  }
+ 
+#text{
+  display: block;
+  color:rgba(0, 0, 0, 0.753);
+  font-size: 14px;
+  font-weight: 300;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 6px;
+  margin-left: 100px;
+  font-weight: 300;
+  margin-top: -20px;
+}
+#messages{
+    
+    
+    font-size: 17px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 6px;
+    margin-left: 103px;
+    font-weight: 300;
+    margin-top: -5px;
+  }
+#phone{
+    margin-left: 105px;
+    margin-top: -50px;
+}
+#hello{
+  margin-left: 107px;
+  margin-bottom: -50px;
+
+}
+#hai{
+  margin-left: 107px;
+  margin-bottom: -50px;
+
+}
+#hey{
+  margin-left: 107px;
+}
+.smallhidden{
+  visibility: hidden;
+}
+.smallshown{
+  visibility: visible;
+  margin-left: 110px;
+  color:red;
+  
+}
